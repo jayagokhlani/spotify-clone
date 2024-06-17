@@ -1,0 +1,29 @@
+/* Playlist.css */
+
+.playlist {
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .playlist:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .playlist h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #1db954;
+  }
+  
+  .playlist p {
+    color: #333333;
+    font-size: 14px;
+  }
+  
+  .playlist
+  

@@ -1,0 +1,35 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #1DB954;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.App-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.App-main section {
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+.App-footer {
+  background-color: #1DB954;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+}
